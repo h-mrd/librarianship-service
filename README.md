@@ -36,3 +36,8 @@ apachectl restart
 if you can need to inspect this container, you must use ```docker inspect book``` ;)
 
 ### implementation with PHP
+
+This service has three parts:
+1. Book reserve: first a list of books for reserving show to the user. The user can reserve books. He can also cancel his reserved books.
+2. Book Search: In this section, the user can customize the search by title, author name or topic.
+3. Borrowed Book List: Shows a list of borrowed books for the user. It also shows the status of returned books.
